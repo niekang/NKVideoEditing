@@ -7,6 +7,7 @@
 //
 
 #import "NKPresentViewController.h"
+#import <Framework/Framework.h>
 
 @interface NKPresentViewController ()
 
@@ -23,6 +24,10 @@
     [btn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     [btn addTarget:self action:@selector(dimiss) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [[[User alloc] init] printName];
 }
 
 - (void)dimiss {

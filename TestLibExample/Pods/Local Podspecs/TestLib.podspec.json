@@ -1,6 +1,6 @@
 {
   "name": "TestLib",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "summary": "Test Pod",
   "description": "Test Lib Pod",
   "homepage": "https://github.com/niekang/TestLib",
@@ -16,10 +16,11 @@
   },
   "source": {
     "git": "https://github.com/niekang/TestLib.git",
-    "tag": "0.0.1"
+    "tag": "0.0.2"
   },
   "source_files": [
     "TestLib",
     "TestLib/**/*.{h,m}"
-  ]
+  ],
+  "vendored_frameworks": "TestLib/Framework.framework"
 }

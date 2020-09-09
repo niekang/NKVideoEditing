@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "TestLib"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "Test Pod"
   spec.description  = "Test Lib Pod"
 
@@ -15,6 +15,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/niekang/TestLib.git", :tag => "#{spec.version}" }
   
   spec.source_files  = "TestLib", "TestLib/**/*.{h,m}"
+  spec.vendored_frameworks = "TestLib/Framework.framework"
 
   #spec.public_header_files = "Classes/**/*.h"
   # spec.resource  = "icon.png"
