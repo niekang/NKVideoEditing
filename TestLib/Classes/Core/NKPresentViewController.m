@@ -7,7 +7,7 @@
 //
 
 #import "NKPresentViewController.h"
-#import <Framework/Framework.h>
+#import <MTFramework/MTFramework.h>
 
 @interface NKPresentViewController ()
 
@@ -27,7 +27,7 @@
 }
 
 - (void)viewDidAppear:(BOOL)animated {
-    [[[User alloc] init] printName];
+    [MTUtils showMessage];
 }
 
 - (void)dimiss {

@@ -14,7 +14,9 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - TestLib (0.0.2)
+  - TestLib (0.0.4):
+    - TestLib/Core (= 0.0.4)
+  - TestLib/Core (0.0.4)
 
 DEPENDENCIES:
   - AFNetworking
@@ -30,7 +32,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  TestLib: fc408475539e0a21dd9de1ccd344c7e393db5928
+  TestLib: 7dd71fd04d1c088fe66e791605a5f9221abd315b
 
 PODFILE CHECKSUM: 6df02c4ce2ad320237077d2296b0894365694d66
 

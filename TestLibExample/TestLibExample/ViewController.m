@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import <TestLib/TestLib.h>
+#import <MTFramework/MTFramework.h>
 
 @interface ViewController ()
 
@@ -17,12 +18,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
 }
 
 - (void)viewDidAppear:(BOOL)animated {
     [NKUtils presentViewController:self];
-
 }
 
 

@@ -13,8 +13,6 @@
 #import "NKPresentViewController.h"
 #import "NKUtils.h"
 #import "TestLib.h"
-#import "Framework.h"
-#import "User.h"
 
 FOUNDATION_EXPORT double TestLibVersionNumber;
 FOUNDATION_EXPORT const unsigned char TestLibVersionString[];
