@@ -14,8 +14,8 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/niekang/TestLib.git", :tag => "#{spec.version}" }
   
-  spec.source_files = "TestLib/Classes/Core/*"
-
+  spec.source_files = "TestLib/Classes/**/*"
+  spec.frameworks = ["Foundation", "UIKit"]
   spec.vendored_frameworks = "TestLib/Vendor/*.framework"
 
   #spec.public_header_files = "Classes/**/*.h"

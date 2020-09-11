@@ -18,11 +18,6 @@
     "git": "https://github.com/niekang/TestLib.git",
     "tag": "0.0.4"
   },
-  "vendored_frameworks": "TestLib/**/*.framework",
-  "subspecs": [
-    {
-      "name": "Core",
-      "source_files": "TestLib/Classes/Core/*"
-    }
-  ]
+  "source_files": "TestLib/Classes/**/*",
+  "vendored_frameworks": "TestLib/Vendor/*.framework"
 }
