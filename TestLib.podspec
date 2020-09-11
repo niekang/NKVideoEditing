@@ -8,14 +8,14 @@ Pod::Spec.new do |spec|
 
   spec.homepage     = "https://github.com/niekang/TestLib"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
-
-  spec.author             = { "聂康" => "18501047699@163.com" }
+  spec.author       = {"聂康" => "18501047699@163.com" }
   spec.platform     = :ios, "8.0"
 
-  spec.source       = { :git => "https://github.com/niekang/TestLib.git", :tag => "#{spec.version}" }
+  spec.source       = {
+    :git => "https://github.com/niekang/TestLib.git",
+    :tag => "#{spec.version}" }
   
   spec.source_files = "TestLib/Classes/**/*"
-  spec.frameworks = ["Foundation", "UIKit"]
   spec.vendored_frameworks = "TestLib/Vendor/*.framework"
 
   #spec.public_header_files = "Classes/**/*.h"

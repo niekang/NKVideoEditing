@@ -7,7 +7,6 @@
 //
 
 #import "NKPresentViewController.h"
-#import <MTFramework/MTFramework.h>
 
 @interface NKPresentViewController ()
 

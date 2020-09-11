@@ -14,7 +14,7 @@
 		828956F0250916F800BD6E97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 828956EF250916F800BD6E97 /* Assets.xcassets */; };
 		828956F3250916F800BD6E97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 828956F1250916F800BD6E97 /* LaunchScreen.storyboard */; };
 		828956F6250916F800BD6E97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 828956F5250916F800BD6E97 /* main.m */; };
-		B3BE7511A120D546D458A183 /* Pods_TestLibExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C774D291EBCDFE4205B36303 /* Pods_TestLibExample.framework */; };
+		C7B830BAF2E05D86F6E69E4B /* libPods-TestLibExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7B80CA5BCC1BCA1330ECC7A /* libPods-TestLibExample.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +32,7 @@
 		828956F2250916F800BD6E97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		828956F4250916F800BD6E97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		828956F5250916F800BD6E97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C774D291EBCDFE4205B36303 /* Pods_TestLibExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestLibExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7B80CA5BCC1BCA1330ECC7A /* libPods-TestLibExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestLibExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3BE7511A120D546D458A183 /* Pods_TestLibExample.framework in Frameworks */,
+				C7B830BAF2E05D86F6E69E4B /* libPods-TestLibExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +96,7 @@
 		A8FD2229D29165362B7D03E1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C774D291EBCDFE4205B36303 /* Pods_TestLibExample.framework */,
+				F7B80CA5BCC1BCA1330ECC7A /* libPods-TestLibExample.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,7 +112,6 @@
 				828956DC250916F700BD6E97 /* Sources */,
 				828956DD250916F700BD6E97 /* Frameworks */,
 				828956DE250916F700BD6E97 /* Resources */,
-				75E016B14BF23437B478492A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -189,23 +188,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		75E016B14BF23437B478492A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TestLibExample/Pods-TestLibExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TestLibExample/Pods-TestLibExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestLibExample/Pods-TestLibExample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

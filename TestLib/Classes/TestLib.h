@@ -9,6 +9,6 @@
 #define TestLib_h
 
 #import "NKUtils.h"
-
+#import "NKPresentViewController.h"
 
 #endif /* TestLib_h */
